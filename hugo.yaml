@@ -1,8 +1,8 @@
 # If your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would
 # contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-baseURL: "https://adityatelange.github.io/hugo-PaperMod/"
-title: PaperMod
-copyright: "© [PaperMod Contributors](https://github.com/adityatelange/hugo-PaperMod/graphs/contributors)"
+baseURL: "https://nithishwer.github.io"
+title: "Nithish's Blog"
+copyright: "©"
 paginate: 5
 theme: ["PaperMod"]
 
@@ -13,7 +13,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
-mainsections: ["posts", "papermod"]
+mainsections: ["posts", "Nithishwer"]
 
 minify:
   disableXML: true
@@ -38,13 +38,11 @@ languages:
         - name: Tags
           url: tags/
           weight: 10
-        - name: WiKi
-          url: https://github.com/adityatelange/hugo-PaperMod/wiki/
 
   fr:
     languageName: ":fr:"
     weight: 2
-    title: PaperModL2
+    title: Nithishwer Mouroug Anand
     taxonomies:
       category: FRcategories
       tag: FRtags
@@ -71,9 +69,9 @@ languages:
       languageAltTitle: French
       profileMode:
         enabled: true
-        title: PaperMod
+        title: Nithishwer Mouroug Anand
         imageUrl: "https://raw.githubusercontent.com/googlefonts/noto-emoji/master/svg/emoji_u1f9d1_1f3fb_200d_1f4bb.svg"
-        imageTitle: ProfileMode image
+        imageTitle: "Nithish Mugshot"
         # imageWidth: 120
         # imageHeight: 120
         subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
@@ -110,7 +108,7 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+  description: "Nithishwer Mouroug Anand's Blog"
   author: Theme PaperMod
   # author: ["Me", "You"] # multiple authors
 
