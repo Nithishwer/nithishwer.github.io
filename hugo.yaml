@@ -70,7 +70,7 @@ languages:
       profileMode:
         enabled: true
         title: Nithishwer Mouroug Anand
-        imageUrl: "https://raw.githubusercontent.com/googlefonts/noto-emoji/master/svg/emoji_u1f9d1_1f3fb_200d_1f4bb.svg"
+        imageUrl: "assets/images/DP_1.jpg"
         imageTitle: "Nithish Mugshot"
         # imageWidth: 120
         # imageHeight: 120
