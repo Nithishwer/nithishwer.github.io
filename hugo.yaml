@@ -70,7 +70,7 @@ languages:
       profileMode:
         enabled: true
         title: Nithishwer Mouroug Anand
-        imageUrl: "assets/images/DP_1.jpg"
+        imageUrl: "https://github.com/Nithishwer/nithishwer.github.io/blob/master/assets/images/DP_1.jpg"
         imageTitle: "Nithish Mugshot"
         # imageWidth: 120
         # imageHeight: 120
