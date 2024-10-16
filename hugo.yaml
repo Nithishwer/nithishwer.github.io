@@ -19,86 +19,102 @@ minify:
   disableXML: true
   # minifyOutput: true
 
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+
 languages:
-  en:
-    languageName: "English"
-    weight: 1
-    taxonomies:
-      category: categories
-      tag: tags
-      series: series
-    menu:
-      main:
-        - name: Archive
-          url: archives
-          weight: 5
-        - name: Search
-          url: search/
-          weight: 10
-        - name: Tags
-          url: tags/
-          weight: 10
+    en:
+      languageName: "English"
+      contentDir: content/English
+      weight: 1
+      taxonomies:
+        category: categories
+        tag: tags
+        series: series
+      menu:
+        main:
+          - name: /About
+            url: about/
+            weight: 10
+          - name: /Projects
+            url: Projects/
+            weight: 20
+          - name: /Blogs
+            url: archives
+            weight: 30
+          - name: /Shelf
+            url: search/
+            weight: 40
+          - name: /Search
+            url: search/
+            weight: 50
+          - name: /Tags
+            url: tags/
+            weight: 60
 
-  fr:
-    languageName: ":fr:"
-    weight: 2
-    title: Nithishwer Mouroug Anand
-    taxonomies:
-      category: FRcategories
-      tag: FRtags
-      series: FRseries
-    menu:
-      main:
-        - name: Archive
-          url: archives/
-          weight: 5
-        - name: FRTags
-          url: frtags
-          weight: 10
-        - name: FRCategories
-          url: frcategories
-          weight: 10
-        - name: FRSeries
-          url: frseries
-          weight: 10
-        - name: NullLink
-          url: "#"
+      # Uncomment this to change to profile type landing page
+      params:
+        languageAltTitle: English
+        profileMode:
+          enabled: true
+          title: Nithishwer Mouroug Anand
+          imageUrl: "https://raw.githubusercontent.com/Nithishwer/nithishwer.github.io/b39d200677e4d5b49a2fcf37715f5a8378fa1365/assets/images/DP_1.jpg"
+          imageTitle: "Nithish's Mugshot"
+          # imageWidth: 120
+          # imageHeight: 120
+          subtitle: "DPhil in Computational Drug Discovery at University of Oxford & Vertex Pharmaceuticals"
+          buttons:
+            - name: About
+              url: about
+            - name: Projects
+              url: posts
+      # Uncomment this to change to home-info type landing page
+      #params:
+      #  homeInfoParams:
+      #    Title: Hi! 👋 I'm Nithish
+      #    Content: Can be Info, links, about...
+    ta:
+        languageName: "தமிழ்"
+        contentDir: content/Tamil
 
-    # custom params for each language should be under [langcode].parms - hugo v0.120.0
-    params:
-      languageAltTitle: French
-      profileMode:
-        enabled: true
-        title: Nithishwer Mouroug Anand
-        imageUrl: "https://raw.githubusercontent.com/Nithishwer/nithishwer.github.io/b39d200677e4d5b49a2fcf37715f5a8378fa1365/assets/images/DP_1.jpg"
-        imageTitle: "Nithish's Mugshot"
-        # imageWidth: 120
-        # imageHeight: 120
-        subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
-        buttons:
-          - name: Blog
-            url: posts
-          - name: Profile Mode
-            url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
 
-  fa:
-    languagedirection: rtl
-    weight: 3
-    title: PaperMod RTL
-    taxonomies:
-      category: FAcategories
-      tag: FAtags
-      series: FAseries
-    menu:
-      main:
-        - name: FATags
-          url: fatags
-          weight: 10
-    # custom params for each language should be under [langcode].parms - hugo v0.120.0
-    params:
-      homeInfoParams:
-        Title: "Hi there \U0001F44B"
-        Content: Welcome to RTL layout
+#languages:
+#  en:
+#    languageName: "English"
+#    weight: 1
+#    taxonomies:
+#      category: categories
+#      tag: tags
+#      series: series
+#    menu:
+#      main:
+#        - name: Archive
+#          url: archives
+#          weight: 5
+#        - name: Search
+#          url: search/
+#          weight: 10
+#        - name: Tags
+#          url: tags/
+#          weight: 10
+#
+#    # custom params for each language should be under [langcode].parms - hugo v0.120.0
+#    params:
+#      languageAltTitle: French
+#      profileMode:
+#        enabled: true
+#        title: Nithishwer Mouroug Anand
+#        imageUrl: "https://raw.githubusercontent.com/Nithishwer/nithishwer.github.io/b39d200677e4d5b49a2fcf37715f5a8378fa1365/assets/images/DP_1.jpg"
+#        imageTitle: "Nithish's Mugshot"
+#        # imageWidth: 120
+#        # imageHeight: 120
+#        subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
+#        buttons:
+#          - name: Blog
+#            url: posts
+#          - name: Profile Mode
+#            url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
+
 
 outputs:
   home:
@@ -125,7 +141,7 @@ params:
   ShowAllPagesInArchive: true
   ShowPageNums: true
   ShowToc: true
-  # comments: false
+  comments: true
   images: ["images/papermod-cover.png"]
 
   profileMode:
@@ -142,7 +158,7 @@ params:
         url: tags
 
   homeInfoParams:
-    Title: "PaperMod's Demo"
+    Title: "Hi! 👋 I'm Nithish"
     Content: >
       👋 Welcome to demo page of Hugo's theme PaperMod!
 
@@ -152,24 +168,18 @@ params:
 
       - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper/tree/4330c8b12aa48bfdecbcad6ad66145f679a430b3).
 
-  socialIcons:
-    - name: github
-      title: My Github
-      url: "https://github.com/nithishwer"
-    - name: Discord
-      title: Join discord community
-      url: "https://discord.gg/ahpmTvhVmp"
-    - name: X
-      title: Follow me on X
+  socialIcons: 
+    - name: "googlescholar"
+      url: "https://scholar.google.com/citations?user=XcnVM7IAAAAJ&hl=en"
+    - name: "github"
+      url: "https://github.com/Nithishwer"
+    - name: "email"
+      url: "mailto:nithishwer@gmail.com"
+    - name: "X"
       url: "https://x.com/nithishwer"
-    - name: KoFi
-      title: Buy me a Ko-Fi :)
-      url: "ko-fi.com/nithishwer"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/nithishwer-mouroug-anand/"
 
-  editPost:
-    URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
 
   # label:
   # iconSVG: '<svg xmlns="http://www.w3.org/2000/svg" height="25" viewBox="0 -960 960 960" fill="currentColor"><path d="M320-240h320v-80H320v80Zm0-160h320v-80H320v80ZM240-80q-33 0-56.5-23.5T160-160v-640q0-33 23.5-56.5T240-880h320l240 240v480q0 33-23.5 56.5T720-80H240Zm280-520v-200H240v640h480v-440H520ZM240-800v200-200 640-640Z"/></svg>'
