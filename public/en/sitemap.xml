@@ -2,19 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/posts/papermod/papermod-installation/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ta"
-                href="http://localhost:1313/ta/posts/papermod/papermod-installation/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/posts/papermod/papermod-installation/"
-                />
-  </url><url>
     <loc>http://localhost:1313/en/posts/papermod/papermod-features/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -26,71 +13,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/posts/papermod/papermod-features/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/posts/markdown-syntax.fr/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ta"
-                href="http://localhost:1313/ta/posts/markdown-syntax.fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/posts/markdown-syntax.fr/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/posts/markdown-syntax.fa/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ta"
-                href="http://localhost:1313/ta/posts/markdown-syntax.fa/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/posts/markdown-syntax.fa/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/posts/papermod/papermod-faq/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ta"
-                href="http://localhost:1313/ta/posts/papermod/papermod-faq/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/posts/papermod/papermod-faq/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/posts/papermod/papermod-icons/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ta"
-                href="http://localhost:1313/ta/posts/papermod/papermod-icons/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/posts/papermod/papermod-icons/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/posts/papermod/papermod-variables/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ta"
-                href="http://localhost:1313/ta/posts/papermod/papermod-variables/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/posts/papermod/papermod-variables/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/posts/my-first-post/</loc>
@@ -158,9 +80,6 @@
                 href="http://localhost:1313/en/tags/papermod/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/series/papermod/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/en/posts/papermod/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -173,9 +92,6 @@
                 hreflang="en"
                 href="http://localhost:1313/en/posts/papermod/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/en/series/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/en/tags/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
@@ -190,47 +106,8 @@
                 href="http://localhost:1313/en/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/categories/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ta"
-                href="http://localhost:1313/ta/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/categories/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/tags/css/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ta"
-                href="http://localhost:1313/ta/tags/css/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/css/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/tags/html/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ta"
-                href="http://localhost:1313/ta/tags/html/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/html/"
-                />
-  </url><url>
     <loc>http://localhost:1313/en/tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ta"
@@ -240,100 +117,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/tags/markdown/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/posts/markdown-syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ta"
-                href="http://localhost:1313/ta/posts/markdown-syntax/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/posts/markdown-syntax/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/categories/syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ta"
-                href="http://localhost:1313/ta/categories/syntax/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/categories/syntax/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/tags/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ta"
-                href="http://localhost:1313/ta/tags/themes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/themes/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/categories/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ta"
-                href="http://localhost:1313/ta/categories/themes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/categories/themes/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/series/themes-guide/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/tags/code/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ta"
-                href="http://localhost:1313/ta/tags/code/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/code/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/posts/code_syntax/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ta"
-                href="http://localhost:1313/ta/posts/code_syntax/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/posts/code_syntax/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/tags/gist/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ta"
-                href="http://localhost:1313/ta/tags/gist/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/gist/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/tags/privacy/</loc>
@@ -375,58 +158,6 @@
                 href="http://localhost:1313/en/tags/shortcodes/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/syntax/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ta"
-                href="http://localhost:1313/ta/tags/syntax/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/syntax/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/posts/math-typesetting/</loc>
-    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ta"
-                href="http://localhost:1313/ta/posts/math-typesetting/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/posts/math-typesetting/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/tags/emoji/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ta"
-                href="http://localhost:1313/ta/tags/emoji/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/emoji/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/posts/emoji-support/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ta"
-                href="http://localhost:1313/ta/posts/emoji-support/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/posts/emoji-support/"
-                />
-  </url><url>
     <loc>http://localhost:1313/en/archives.fr/</loc>
     <xhtml:link
                 rel="alternate"
@@ -449,6 +180,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/archives/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ta"
+                href="http://localhost:1313/ta/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/categories/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/about/</loc>
@@ -486,5 +229,7 @@
                 hreflang="en"
                 href="http://localhost:1313/en/search.fr/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/en/series/</loc>
   </url>
 </urlset>
