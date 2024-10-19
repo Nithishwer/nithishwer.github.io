@@ -196,50 +196,111 @@
             sizes="(min-width: 768px) 720px, 100vw" src="http://localhost:1313/images/papermod-cover.png" alt="" 
             width="1200" height="628">
         
-</figure><div class="toc">
-    <details >
-        <summary accesskey="c" title="(Alt + C)">
-            <span class="details">Table of Contents</span>
-        </summary>
+</figure><aside id="toc-container" class="toc-container wide">
+    <div class="toc">
+        <details >
+            <summary accesskey="c" title="(Alt + C)">
+                <span class="details">Table of Contents</span>
+            </summary>
 
-        <div class="inner"><ul>
-                <li>
-                    <a href="#getting-started-" aria-label="Getting Started 🚀">Getting Started 🚀</a><ul>
-                        
-                <li>
-                    <a href="#installingupdating-papermod" aria-label="Installing/Updating PaperMod">Installing/Updating PaperMod</a></li>
-                <li>
-                    <a href="#finally-set-theme-as-papermod-in-your-site-config" aria-label="Finally set theme as PaperMod in your site config">Finally set theme as PaperMod in your site config</a></li>
-                <li>
-                    <a href="#next-up---customizing-papermod-to-suit-your-preferences" aria-label="Next up - Customizing PaperMod to suit your preferences.">Next up - Customizing PaperMod to suit your preferences.</a></li></ul>
-                </li>
-                <li>
-                    <a href="#support-" aria-label="Support 🫶">Support 🫶</a></li>
-                <li>
-                    <a href="#videos-featuring-papermod" aria-label="Videos featuring PaperMod">Videos featuring PaperMod</a></li>
-                <li>
-                    <a href="#quick-links" aria-label="Quick Links">Quick Links</a><ul>
-                        
-                <li>
-                    <a href="#papermod---featurespapermod-features" aria-label="Papermod - Features">Papermod - Features</a></li>
-                <li>
-                    <a href="#papermod---faqspapermod-how-to" aria-label="Papermod - FAQs">Papermod - FAQs</a></li>
-                <li>
-                    <a href="#papermod---variablespapermod-variables" aria-label="Papermod - Variables">Papermod - Variables</a></li>
-                <li>
-                    <a href="#papermod---iconspapermod-icons" aria-label="Papermod - Icons">Papermod - Icons</a></li>
-                <li>
-                    <a href="#changeloghttpsgithubcomadityatelangehugo-papermodreleases" aria-label="ChangeLog">ChangeLog</a></li></ul>
-                </li>
-                <li>
-                    <a href="#sample-configyml" aria-label="Sample config.yml">Sample config.yml</a></li>
-                <li>
-                    <a href="#sample-pagemd" aria-label="Sample Page.md">Sample Page.md</a>
-                </li>
-            </ul>
-        </div>
-    </details>
-</div>
+            <div class="inner"><ul>
+                    <li>
+                        <a href="#getting-started-" aria-label="Getting Started 🚀">Getting Started 🚀</a><ul>
+                            
+                    <li>
+                        <a href="#installingupdating-papermod" aria-label="Installing/Updating PaperMod">Installing/Updating PaperMod</a></li>
+                    <li>
+                        <a href="#finally-set-theme-as-papermod-in-your-site-config" aria-label="Finally set theme as PaperMod in your site config">Finally set theme as PaperMod in your site config</a></li>
+                    <li>
+                        <a href="#next-up---customizing-papermod-to-suit-your-preferences" aria-label="Next up - Customizing PaperMod to suit your preferences.">Next up - Customizing PaperMod to suit your preferences.</a></li></ul>
+                    </li>
+                    <li>
+                        <a href="#support-" aria-label="Support 🫶">Support 🫶</a></li>
+                    <li>
+                        <a href="#videos-featuring-papermod" aria-label="Videos featuring PaperMod">Videos featuring PaperMod</a></li>
+                    <li>
+                        <a href="#quick-links" aria-label="Quick Links">Quick Links</a><ul>
+                            
+                    <li>
+                        <a href="#papermod---featurespapermod-features" aria-label="Papermod - Features"><a href="../papermod-features">Papermod - Features</a></a></li>
+                    <li>
+                        <a href="#papermod---faqspapermod-how-to" aria-label="Papermod - FAQs"><a href="../papermod-how-to">Papermod - FAQs</a></a></li>
+                    <li>
+                        <a href="#papermod---variablespapermod-variables" aria-label="Papermod - Variables"><a href="../papermod-variables">Papermod - Variables</a></a></li>
+                    <li>
+                        <a href="#papermod---iconspapermod-icons" aria-label="Papermod - Icons"><a href="../papermod-icons">Papermod - Icons</a></a></li>
+                    <li>
+                        <a href="#changeloghttpsgithubcomadityatelangehugo-papermodreleases" aria-label="ChangeLog"><a href="https://github.com/adityatelange/hugo-PaperMod/releases">ChangeLog</a></a></li></ul>
+                    </li>
+                    <li>
+                        <a href="#sample-configyml" aria-label="Sample config.yml">Sample <code>config.yml</code></a></li>
+                    <li>
+                        <a href="#sample-pagemd" aria-label="Sample Page.md">Sample <code>Page.md</code></a>
+                    </li>
+                </ul>
+            </div>
+        </details>
+    </div>
+</aside>
+<script>
+    let activeElement;
+    let elements;
+    window.addEventListener('DOMContentLoaded', function (event) {
+        checkTocPosition();
+
+        elements = document.querySelectorAll('h1[id],h2[id],h3[id],h4[id],h5[id],h6[id]');
+         
+         activeElement = elements[0];
+         const id = encodeURI(activeElement.getAttribute('id')).toLowerCase();
+         document.querySelector(`.inner ul li a[href="#${id}"]`).classList.add('active');
+     }, false);
+
+    window.addEventListener('resize', function(event) {
+        checkTocPosition();
+    }, false);
+
+    window.addEventListener('scroll', () => {
+        
+        activeElement = Array.from(elements).find((element) => {
+            if ((getOffsetTop(element) - window.pageYOffset) > 0 && 
+                (getOffsetTop(element) - window.pageYOffset) < window.innerHeight/2) {
+                return element;
+            }
+        }) || activeElement
+
+        elements.forEach(element => {
+             const id = encodeURI(element.getAttribute('id')).toLowerCase();
+             if (element === activeElement){
+                 document.querySelector(`.inner ul li a[href="#${id}"]`).classList.add('active');
+             } else {
+                 document.querySelector(`.inner ul li a[href="#${id}"]`).classList.remove('active');
+             }
+         })
+     }, false);
+
+    const main = parseInt(getComputedStyle(document.body).getPropertyValue('--article-width'), 10);
+    const toc = parseInt(getComputedStyle(document.body).getPropertyValue('--toc-width'), 10);
+    const gap = parseInt(getComputedStyle(document.body).getPropertyValue('--gap'), 10);
+
+    function checkTocPosition() {
+        const width = document.body.scrollWidth;
+
+        if (width - main - (toc * 2) - (gap * 4) > 0) {
+            document.getElementById("toc-container").classList.add("wide");
+        } else {
+            document.getElementById("toc-container").classList.remove("wide");
+        }
+    }
+
+    function getOffsetTop(element) {
+        if (!element.getClientRects().length) {
+            return 0;
+        }
+        let rect = element.getBoundingClientRect();
+        let win = element.ownerDocument.defaultView;
+        return rect.top + win.pageYOffset;   
+    }
+</script>
 
   <div class="post-content"><blockquote>
 <ul>
