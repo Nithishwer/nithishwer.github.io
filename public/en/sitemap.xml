@@ -159,16 +159,6 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/archives.fr/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ta"
-                href="http://localhost:1313/ta/archives.fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/archives.fr/"
-                />
   </url><url>
     <loc>http://localhost:1313/en/archives/</loc>
     <xhtml:link
@@ -219,16 +209,6 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/search.fr/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ta"
-                href="http://localhost:1313/ta/search.fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/search.fr/"
-                />
   </url><url>
     <loc>http://localhost:1313/en/series/</loc>
   </url>
