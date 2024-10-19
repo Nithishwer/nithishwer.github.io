@@ -130,7 +130,7 @@ params:
 
   defaultTheme: auto
   # disableThemeToggle: true
-  ShowShareButtons: true
+  ShowShareButtons: False
   ShowReadingTime: true
   # disableSpecial1stPost: true
   displayFullLangName: true
