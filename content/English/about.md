@@ -1,6 +1,5 @@
 +++
 title = "Hi, I'm Nithish 👋🏽"
-draft = true
 +++
 
 I'm a DPhil candidate at the [University of Oxford](https://www.ox.ac.uk/) working on Free Energy Calculations for Drug Design in collaboration with [Vertex Pharmaceuticals](https://www.vrtx.com/home/). A Physicist by training and currently based at the [Biggin lab](https://sbcb.bioch.ox.ac.uk/biggin.php/) in the Department of Biochemistry, my research experience spans Structural Biophysics, Immunogenomics and Computational Chemistry. 

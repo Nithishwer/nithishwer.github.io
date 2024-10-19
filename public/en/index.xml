@@ -38,11 +38,12 @@
       <description>A brief description of Hugo Shortcodes</description>
     </item>
     <item>
-      <title>Hi Im Nithish</title>
+      <title>Hi, I&#39;m Nithish 👋🏽</title>
       <link>http://localhost:1313/en/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/about/</guid>
-      <description></description>
+      <description>&lt;p&gt;I&amp;rsquo;m a DPhil candidate at the &lt;a href=&#34;https://www.ox.ac.uk/&#34;&gt;University of Oxford&lt;/a&gt; working on Free Energy Calculations for Drug Design in collaboration with &lt;a href=&#34;https://www.vrtx.com/home/&#34;&gt;Vertex Pharmaceuticals&lt;/a&gt;. A Physicist by training and currently based at the &lt;a href=&#34;https://sbcb.bioch.ox.ac.uk/biggin.php/&#34;&gt;Biggin lab&lt;/a&gt; in the Department of Biochemistry, my research experience spans Structural Biophysics, Immunogenomics and Computational Chemistry.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m interested in all things computational biomedical research and am particularly curious about the exciting world of biotech entrepreneurship. Starting November 2024, I will be pursuing my internship with &lt;a href=&#34;https://www.roche.com/&#34;&gt;Roche AG&lt;/a&gt;, Zurich on AI-agentic workflows for target discovery.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
