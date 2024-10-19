@@ -37,5 +37,12 @@
       <guid>http://localhost:1313/en/posts/rich-content/</guid>
       <description>A brief description of Hugo Shortcodes</description>
     </item>
+    <item>
+      <title>Hi Im Nithish</title>
+      <link>http://localhost:1313/en/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/about/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
