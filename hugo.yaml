@@ -39,11 +39,8 @@ languages:
           - name: /Projects
             url: Projects/
             weight: 20
-          - name: /Blogs
-            url: archives
-            weight: 30
-          - name: /Shelf
-            url: search/
+          - name: /CV
+            url: Nithishwer_HT_24.pdf
             weight: 40
           - name: /Search
             url: search/
