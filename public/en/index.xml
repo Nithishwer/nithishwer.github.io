@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Nithish&#39;s Blog</title>
-    <link>http://localhost:1313/en/</link>
+    <link>https://nithishwer.github.io/en/</link>
     <description>Recent content on Nithish&#39;s Blog</description>
     <image>
       <title>Nithish&#39;s Blog</title>
-      <url>http://localhost:1313/images/papermod-cover.png</url>
-      <link>http://localhost:1313/images/papermod-cover.png</link>
+      <url>https://nithishwer.github.io/images/papermod-cover.png</url>
+      <link>https://nithishwer.github.io/images/papermod-cover.png</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>©</copyright>
     <lastBuildDate>Fri, 28 Nov 2025 17:30:16 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nithishwer.github.io/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Features / Mods</title>
-      <link>http://localhost:1313/en/projects/papermod/papermod-features/</link>
+      <link>https://nithishwer.github.io/en/projects/papermod/papermod-features/</link>
       <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/projects/papermod/papermod-features/</guid>
+      <guid>https://nithishwer.github.io/en/projects/papermod/papermod-features/</guid>
       <description>Learn About All Features in PaperMod</description>
     </item>
     <item>
       <title>👨‍💻 FEPA: FE(P) Pocket Analyzer</title>
-      <link>http://localhost:1313/en/projects/teasing_fepa/</link>
+      <link>https://nithishwer.github.io/en/projects/teasing_fepa/</link>
       <pubDate>Fri, 28 Nov 2025 17:30:16 +0000</pubDate>
-      <guid>http://localhost:1313/en/projects/teasing_fepa/</guid>
+      <guid>https://nithishwer.github.io/en/projects/teasing_fepa/</guid>
       <description>&lt;p&gt;ABFEs or absolute binding free energies calculations is a computational method to estimate protein-ligand binding affinities using an alchemical thermodynamic cycle. However, ABFE calculations are a limited by the quality of sampling and the accuracy of the force field used. FE(P) Pocket Analyzer (FEPA) is a package that has the tools required to investigate ABFE simulations for common sampling issues like apo state issues, binding pocket resolvation, ligand binding conformation. FEPA also has workflows to setup and run REUS calculations to correct for apo state issues. FEPA is currently under development and is available on GitHub at &lt;a href=&#34;https://github.com/Nithishwer/FEPA&#34;&gt;FEPA&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rich Content and Shortcodes</title>
-      <link>http://localhost:1313/en/projects/rich-content/</link>
+      <link>https://nithishwer.github.io/en/projects/rich-content/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/projects/rich-content/</guid>
+      <guid>https://nithishwer.github.io/en/projects/rich-content/</guid>
       <description>A brief description of Hugo Shortcodes</description>
     </item>
     <item>
       <title>Hi, I&#39;m Nithish 👋🏽</title>
-      <link>http://localhost:1313/en/about/</link>
+      <link>https://nithishwer.github.io/en/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/about/</guid>
+      <guid>https://nithishwer.github.io/en/about/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m a DPhil candidate at the &lt;a href=&#34;https://www.ox.ac.uk/&#34;&gt;University of Oxford&lt;/a&gt; working on Free Energy Calculations for Drug Design in collaboration with &lt;a href=&#34;https://www.vrtx.com/home/&#34;&gt;Vertex Pharmaceuticals&lt;/a&gt;. A physicist by training and currently based at the &lt;a href=&#34;https://sbcb.bioch.ox.ac.uk/biggin.php/&#34;&gt;Biggin lab&lt;/a&gt; in the Department of Biochemistry, my research experience spans Structural Biophysics, Immunogenomics and Computational Chemistry.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;m interested in all things computational biomedical research and am particularly curious about the exciting world of biotech entrepreneurship. Starting November 2024, I will be pursuing my internship with &lt;a href=&#34;https://www.roche.com/&#34;&gt;Roche AG&lt;/a&gt;, Zurich on AI-agentic workflows for target discovery.&lt;/p&gt;</description>
     </item>
