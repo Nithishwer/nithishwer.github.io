@@ -3,7 +3,8 @@
 baseURL: "https://nithishwer.github.io"
 title: "Nithish's Blog"
 copyright: "©"
-paginate: 5
+pagination:
+    pagerSize: 5
 theme: ["PaperMod"]
 
 enableInlineShortcodes: true
@@ -13,7 +14,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
-mainsections: ["posts", "Nithishwer"]
+mainsections: ["projects", "Nithishwer"]
 
 minify:
   disableXML: true
@@ -34,19 +35,22 @@ languages:
       menu:
         main:
           - name: /About
-            url: about/
+            url: /about/
             weight: 10
           - name: /Projects
-            url: Projects/
+            url: /projects/
             weight: 20
+          - name: /Archives
+            url: /archives/
+            weight: 30
           - name: /CV
-            url: Nithishwer_HT_24.pdf
+            url: NMA_MT_25.pdf
             weight: 40
           - name: /Search
-            url: search/
+            url: /search/
             weight: 50
           - name: /Tags
-            url: tags/
+            url: /tags/
             weight: 60
 
       # Uncomment this to change to profile type landing page
@@ -64,7 +68,7 @@ languages:
             - name: About
               url: about
             - name: Projects
-              url: posts
+              url: projects
       # Uncomment this to change to home-info type landing page
       #params:
       #  homeInfoParams:
@@ -73,7 +77,54 @@ languages:
     ta:
         languageName: "தமிழ்"
         contentDir: content/Tamil
-
+        weight: 2
+        taxonomies:
+          category: categories
+          tag: tags
+          series: series
+        menu:
+          main:
+            - name: /About
+              url: about
+              weight: 10
+            - name: /Projects
+              url: projects
+              weight: 20
+            - name: /Archives
+              url: archives
+              weight: 30
+            - name: /CV
+              url: Nithishwer_HT_24.pdf
+              weight: 40
+            - name: /Search
+              url: search
+              weight: 50
+            - name: /Tags
+              url: tags
+              weight: 60  
+        # Uncomment this to change to profile type landing page
+        params:
+          languageAltTitle: Tamil
+          profileMode:
+            enabled: true
+            title: Nithishwer Mouroug Anand
+            imageUrl: "https://raw.githubusercontent.com/Nithishwer/nithishwer.github.io/b39d200677e4d5b49a2fcf37715f5a8378fa1365/assets/images/DP_1.jpg"
+            imageTitle: "Nithish's Mugshot"
+            # imageWidth: 120
+            # imageHeight: 120
+            subtitle: "DPhil in Computational Drug Discovery at University of Oxford & Vertex Pharmaceuticals"
+            buttons:
+              - name: About
+                url: about
+              - name: Projects
+                url: projects
+          math: true
+        # Uncomment this to change to home-info type landing page
+        #params:
+        #  homeInfoParams:
+        #    Title: Hi! 👋 I'm Nithish
+        #    Content: Can be Info, links, about...
+  
 
 #languages:
 #  en:

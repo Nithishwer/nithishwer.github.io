@@ -1,9 +1,9 @@
 +++
 title = "Hi, I'm Nithish 👋🏽"
-
+comments = false
 +++
 
-I'm a DPhil candidate at the [University of Oxford](https://www.ox.ac.uk/) working on Free Energy Calculations for Drug Design in collaboration with [Vertex Pharmaceuticals](https://www.vrtx.com/home/). A Physicist by training and currently based at the [Biggin lab](https://sbcb.bioch.ox.ac.uk/biggin.php/) in the Department of Biochemistry, my research experience spans Structural Biophysics, Immunogenomics and Computational Chemistry. 
+I'm a DPhil candidate at the [University of Oxford](https://www.ox.ac.uk/) working on Free Energy Calculations for Drug Design in collaboration with [Vertex Pharmaceuticals](https://www.vrtx.com/home/). A physicist by training and currently based at the [Biggin lab](https://sbcb.bioch.ox.ac.uk/biggin.php/) in the Department of Biochemistry, my research experience spans Structural Biophysics, Immunogenomics and Computational Chemistry. 
 
 I'm interested in all things computational biomedical research and am particularly curious about the exciting world of biotech entrepreneurship. Starting November 2024, I will be pursuing my internship with [Roche AG](https://www.roche.com/), Zurich on AI-agentic workflows for target discovery.
 

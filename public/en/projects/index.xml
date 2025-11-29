@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Projects on Nithish&#39;s Blog</title>
+    <link>http://localhost:1313/en/projects/</link>
+    <description>Recent content in Projects on Nithish&#39;s Blog</description>
+    <image>
+      <title>Nithish&#39;s Blog</title>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>©</copyright>
+    <lastBuildDate>Fri, 28 Nov 2025 17:30:16 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>👨‍💻 FEPA: FE(P) Pocket Analyzer</title>
+      <link>http://localhost:1313/en/projects/teasing_fepa/</link>
+      <pubDate>Fri, 28 Nov 2025 17:30:16 +0000</pubDate>
+      <guid>http://localhost:1313/en/projects/teasing_fepa/</guid>
+      <description>&lt;p&gt;ABFEs or absolute binding free energies calculations is a computational method to estimate protein-ligand binding affinities using an alchemical thermodynamic cycle. However, ABFE calculations are a limited by the quality of sampling and the accuracy of the force field used. FE(P) Pocket Analyzer (FEPA) is a package that has the tools required to investigate ABFE simulations for common sampling issues like apo state issues, binding pocket resolvation, ligand binding conformation. FEPA also has workflows to setup and run REUS calculations to correct for apo state issues. FEPA is currently under development and is available on GitHub at &lt;a href=&#34;https://github.com/Nithishwer/FEPA&#34;&gt;FEPA&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rich Content and Shortcodes</title>
+      <link>http://localhost:1313/en/projects/rich-content/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/projects/rich-content/</guid>
+      <description>A brief description of Hugo Shortcodes</description>
+    </item>
+  </channel>
+</rss>

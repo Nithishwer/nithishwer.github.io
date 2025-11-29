@@ -9,106 +9,12 @@
       <url>http://localhost:1313/images/papermod-cover.png</url>
       <link>http://localhost:1313/images/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- 0.135.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>ta</language>
     <copyright>©</copyright>
-    <lastBuildDate>Tue, 15 Oct 2024 23:34:10 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/ta/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Install / Update PaperMod</title>
-      <link>http://localhost:1313/ta/posts/papermod/papermod-installation/</link>
-      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ta/posts/papermod/papermod-installation/</guid>
-      <description>Read aboout Install and Update instructions and sampled configuration templates</description>
-    </item>
-    <item>
-      <title>Features / Mods</title>
-      <link>http://localhost:1313/ta/posts/papermod/papermod-features/</link>
-      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ta/posts/papermod/papermod-features/</guid>
-      <description>Learn About All Features in PaperMod</description>
-    </item>
-    <item>
-      <title>Markdown Syntax Guide For L2</title>
-      <link>http://localhost:1313/ta/posts/markdown-syntax.fr/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ta/posts/markdown-syntax.fr/</guid>
-      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
-    </item>
-    <item>
-      <title>Markdown Syntax Guide For RTL</title>
-      <link>http://localhost:1313/ta/posts/markdown-syntax.fa/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ta/posts/markdown-syntax.fa/</guid>
-      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
-    </item>
-    <item>
-      <title>FAQs / How To&#39;s Guide</title>
-      <link>http://localhost:1313/ta/posts/papermod/papermod-faq/</link>
-      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ta/posts/papermod/papermod-faq/</guid>
-      <description>We&amp;rsquo;ll try to answer frequently asked qestions by users.</description>
-    </item>
-    <item>
-      <title>Social-Icons / Share-Icons</title>
-      <link>http://localhost:1313/ta/posts/papermod/papermod-icons/</link>
-      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ta/posts/papermod/papermod-icons/</guid>
-      <description>List of all Icons supported by PaperMod</description>
-    </item>
-    <item>
-      <title>Variables | Front Matter</title>
-      <link>http://localhost:1313/ta/posts/papermod/papermod-variables/</link>
-      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ta/posts/papermod/papermod-variables/</guid>
-      <description>List of Front Matter variables used by PaperMod</description>
-    </item>
-    <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/ta/posts/my-first-post/</link>
-      <pubDate>Tue, 15 Oct 2024 23:34:10 +0100</pubDate>
-      <guid>http://localhost:1313/ta/posts/my-first-post/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;
-&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>http://localhost:1313/ta/posts/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ta/posts/markdown-syntax/</guid>
-      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
-    </item>
-    <item>
-      <title>Code Syntax Guide</title>
-      <link>http://localhost:1313/ta/posts/code_syntax/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ta/posts/code_syntax/</guid>
-      <description>Sample article showcasing basic code syntax and formatting for HTML elements.</description>
-    </item>
-    <item>
-      <title>Rich Content and Shortcodes</title>
-      <link>http://localhost:1313/ta/posts/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ta/posts/rich-content/</guid>
-      <description>A brief description of Hugo Shortcodes</description>
-    </item>
-    <item>
-      <title>Math Typesetting</title>
-      <link>http://localhost:1313/ta/posts/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ta/posts/math-typesetting/</guid>
-      <description>A brief guide to setup KaTeX</description>
-    </item>
-    <item>
-      <title>Emoji Support</title>
-      <link>http://localhost:1313/ta/posts/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ta/posts/emoji-support/</guid>
-      <description>Guide to emoji usage in Hugo</description>
-    </item>
-    <item>
-      <title>வணக்கம், நான் நிதிஷ் 👋🏽</title>
+      <title>வணக்கம், அடியேன் பெயர் நிதீஷ் 🙏🏽</title>
       <link>http://localhost:1313/ta/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/ta/about/</guid>
